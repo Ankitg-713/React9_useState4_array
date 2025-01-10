@@ -8,7 +8,7 @@ function App() {
       <div className="p-4 border">
         <div className="flex">
           {val.map((item) => (
-            <h1 key={item} className={`bg-red-200 w-11 px-4 py-2 m-2`}>
+            <h1 key={item} className={`bg-red-300 w-11 px-4 py-2 m-2`}>
               {item}
             </h1>
           ))}
